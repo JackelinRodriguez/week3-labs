@@ -1,1 +1,5 @@
 /* BASIC STYLES HERE */
+.card-h {
+  height: 25vh;
+  width: 25vh;
+}
