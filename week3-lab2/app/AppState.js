@@ -25,7 +25,7 @@ class AppState extends EventEmitter {
     new snack({ name: 'Hershey', price: 2, imgUrl: 'https://th.bing.com/th/id/OIP.-ZWA4mOMAGlB0QSCNYbw9QHaFj?pid=ImgDet&rs=1' }),
   ]
 
-
+  money = 0
 
 
 }

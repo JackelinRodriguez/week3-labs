@@ -1,4 +1,5 @@
 import { appState } from "../AppState.js";
+import { snackService } from "../Services/SnackService.js";
 
 export class snack {
   constructor(data) {
@@ -9,7 +10,7 @@ export class snack {
 
   get SnackTemplate() {
     return `
-    <div class="col-4 card">
+    <div class="col-3 card">
     <img
       src="${this.imgUrl}"
       alt="starburst" class="card-h">
@@ -19,6 +20,13 @@ export class snack {
     </div>
     <button class="btn btn-info" onclick="app.snackController">Buy</button>
   </div>
+    `
+  }
+
+  get MoneyTemplate() {
+    return `
+    <h2>${snackService}</h2>
+
     `
   }
 
